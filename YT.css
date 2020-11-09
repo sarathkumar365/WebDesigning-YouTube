@@ -1,0 +1,469 @@
+.header{
+    margin: 0%;
+    overflow: hidden;
+    width: 100%;
+    height: 76px;
+    background: #202020;
+    float: left;
+}
+body{
+    margin: 0%;
+}
+.left{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.nav-bar{
+    cursor: pointer;
+    width: 40px;
+    height: 40%;
+    background: #373737;
+    float: inherit;
+    margin-top: 23px;
+    margin-left: 40px;
+}
+.nav-lines{
+    width: 32px;
+    height: 3.5px;
+    background-color:lavender;
+    margin-top: 6px;
+    margin-left: 2px;
+}
+
+.imageicon{
+    height: 50px;
+    width: 50px;
+    padding-left: 10px;
+    margin-top: 15px;
+    float: inherit;
+}
+.YTheading{
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: normal;
+    letter-spacing: 0cm;
+    color: white;
+    padding-top: 7px;
+    padding-left: 4px;
+    float: inherit;
+}
+.india{
+    float: left;
+    width: 14%;
+    height:20PX;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 16px;
+    color: lavender;
+
+}
+.center{
+    width: 49.2%;
+    height: 100%;
+    float: inherit;
+}
+.search{
+    float: left;
+    width: 100%;
+    height: 100%;
+    margin-top: 18px;    
+    margin-left: 120px;
+}
+.searchbox{
+    float: left;
+    background-color: #121212;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: bolder;   
+    color: wheat;
+    font-size: 20px;
+    border:1ch;
+    height: 35px;   
+}
+.searchbtn{
+    color: #858585;
+    float: left;
+    width: 70px;
+    height: 29px;
+    background: #373737;
+    font-size: larger;
+    text-align: center;
+    padding-top: 8px;
+}
+.right{
+    float: right;
+    width: 500px;
+    height:76px;
+    background: #202020;
+}
+.videocall-btn{color: white;
+    font-size: x-large;
+    float: left;
+    margin-top: 21px;
+    margin-left: 215px;
+    width: 8%;
+    height: 100%
+    
+}
+.grid{
+    float: left;
+    font-size: x-large;
+    width: 20px;
+    height: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    
+}
+.notification{
+    float: left;
+    width: 20px;
+    height: 100%;
+    margin-top:20px ;
+    margin-left: 45px;  
+    color: white;
+    font-size: x-large;
+}
+.profile{
+    float: left;
+    width: 20px;
+    height: 100%;
+    margin-top:20px ;
+    margin-left: 48px;  
+    color: white;
+    font-size: x-large;
+}
+.main-body{
+    overflow: hidden;
+    width: 100%;
+    height:900px;
+    background: #181818;
+}
+.body-left{
+    overflow: hidden;
+    /* overflow-x: hidden; */
+    /* overflow-y: auto; */
+    float: left;
+    width: 320px;
+    height: 900px;
+    background: #181818;
+
+    
+}
+/* .scroll{
+    float: right;
+    width: 10px;
+    height: 900px;
+    overflow: scroll;
+    scrollbar-color: red green;
+    scrollbar-width: thin;
+    cursor: pointer;
+} */
+
+.left-section1{
+    cursor: pointer;
+    float: left;
+    width: 345px;
+    height: 67px;
+    margin-top: 14px;
+    background-color: #4D4D4D;
+}
+
+.left-labels{
+    float: left;
+    width: 100%;
+    height: 20px;
+    color: white;
+    font-family: "Roboto", "Noto", sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.left-section1 .home-label .home-icon{
+    display: block;
+}
+.home-icon{
+    display: inline-block;
+    width: 9%;
+    height: 30px;
+    color: white;
+    font-size: x-large;
+    padding-left: 37px;
+    padding-top: 14px;
+}
+.home-label{
+    position: absolute;
+    top: 85px;
+    left: 92px;
+    float: left;
+    color: white;    
+    font-family: "Roboto", "Noto", sans-serif;
+    font-weight: bolder;
+}
+.left-section2{
+    cursor: pointer;
+    float: right;
+    width: 100%;
+    height: 67px;
+    background: #181818;
+
+}
+
+.trending-icon{
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    color: white;
+    font-size: x-large;
+    padding-left: 37px;
+    padding-top: 15px;
+    
+}
+div .left-section2:hover,div .left-section3:hover,div .left-section4:hover,div .left-section5:hover{
+    background: grey;
+}
+.trending-label{
+    float: right;
+    position: absolute;
+    top: 150px;
+    left: 92px;
+    font-family: "Roboto", "Noto", sans-serif;
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.left-section3{
+    cursor: pointer;
+    float: left;
+    width: 100%;
+    background: #181818;
+    height: 60px;
+
+}
+.sub-icon{
+    display: inline-block;
+    color: white;
+    margin-left: 33px;
+    font-size: x-large;
+}
+.sub-label{
+    position: absolute;
+    top: 203px;
+    left: 92px;
+    font-family: "Roboto", "Noto", sans-serif;
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.line{
+    float: left;
+    margin: 0;
+    width: 100%;
+    height: 1px;
+    color: white;
+    border-style: inset;
+    color: #4D4D4D;
+
+}
+.left-section4{
+    cursor: pointer;
+    float: left;
+    width: 100%;
+    background: #181818;
+    height: 60px;
+}
+.library-icon{
+    display: inline-block;
+    color: white;
+    font-size: x-large;
+    margin-left: 31px;
+    margin-top: 19px;
+}
+.library-label{
+    position: absolute;
+    top: 284px;
+    left: 92px;
+    font-family: "Roboto", "Noto", sans-serif;
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;   
+}
+.left-section5{
+    cursor: pointer;
+    float: left;
+    width: 100%;
+    background: #181818;
+    height: 60px;
+}
+.history-icon{
+    display: inline-block;
+    color: white;
+    font-size: x-large;
+    margin-left: 32px;
+    margin-top: 5px;
+}
+.history-label{
+    position: absolute;
+    top: 330px;
+    left: 92px;
+    font-family: "Roboto", "Noto", sans-serif;
+    color: white;
+    font-size: x-large;
+    font-weight: 400;
+    font-weight: bolder; 
+    
+}
+.line2{
+    float: left;
+    margin: 0;
+    width: 100%;
+    height: 1px;
+    color: white;
+    border-style: inset;
+    color: #4D4D4D;
+}
+.para-signin-div{
+    width: 100%;
+    height: 150px;
+    float: left;
+}
+.para{
+    height: 60px;
+    width: 100%;
+    float: left;
+    margin-left: 21px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-top: 4px
+}
+
+.signin-btn{
+    cursor: pointer;
+    float: left;
+    height: 48px;
+    width: 130px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    border-color: rgb(62, 166, 255);
+    background: inherit;
+    color: rgb(62, 166, 255);
+    border-radius: 4px;
+    margin-left: 20px;
+}
+.para2{
+    color: rgb(170, 170, 170);
+    display: block;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: bold;
+    width: 100%;
+    float: left;
+    height: 28px;
+    margin: 0 1;
+    font-size: 19px;
+    margin-left: 17px;
+
+}
+.music-icon{
+    cursor: pointer;
+    color: white;
+    font-size: 27px;
+    margin-left: 32px;
+}
+.music-label{
+    position: absolute;
+    font-family: 'Roboto', Arial, sans-serif;
+    top: 590px;
+    left: 92px;
+}
+.sports-icon{cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 25px;
+    margin-left: 37px;
+
+}
+.sports-label{
+    position: absolute;
+    top: 650px;
+    left: 92px;
+
+}
+.gaming-icon{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 25px;
+    margin-left: 37px;
+
+}
+.gaming-label{
+    position: absolute;
+    top: 712px;
+    left: 92px;
+
+}
+.body-right{
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif;
+    width: auto;
+    height: 900px;
+    overflow: hidden;
+    float: left;
+
+}
+.cb1{
+    float: left;
+    width: 373px;
+    height: 352px;
+    background: white;
+    position: absolute;
+    top: 165px;
+    left: 345px;
+    background: inherit;
+}
+.cb1-contents{
+    width: 100%;
+    height: 100px;
+    background-color: inherit;
+    
+}
+.profile-img{
+    border-radius: 50px;
+    width: 50px;
+    display: inline;
+    margin-left: 7px;
+    float: left;
+}
+.cb1-label{
+    font-family: inherit;
+    color: grey;
+    font-size: 19px;
+    margin-left: 25px;
+    font-weight: bold;
+    margin-top: 2px;
+}
+.cb1-tick{
+    display: inline-block;
+    font-size: larger;
+    color: grey;
+    height: 5px;
+    margin: 7px;
+}
+.cb2{
+    position: absolute;
+    top: 165px;
+    left: 739px;
+}
+.cb3{
+    position: absolute;
+    top: 165px;
+    left: 1133px;
+}
+.cb4{
+    position: absolute;
+    top: 165px;
+    left: 1530px;
+}
